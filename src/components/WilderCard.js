@@ -20,7 +20,7 @@ const WilderCard = ({ name, skills, id, fetchData }) => {
           <Skill key={index} {...skill} />
         ))}
       </ul>
-      <button onClick={handleDeleteClick}>Supprimer</button>
+      <button onClick={handleDeleteClick}>Delete</button>
     </article>
   );
 };
